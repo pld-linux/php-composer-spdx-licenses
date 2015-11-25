@@ -1,0 +1,11 @@
+--- spdx-licenses-1.1.2/src/SpdxLicenses.php~	2015-10-05 14:27:42.000000000 +0300
++++ spdx-licenses-1.1.2/src/SpdxLicenses.php	2015-11-25 18:48:26.861299555 +0200
+@@ -178,7 +178,7 @@
+      */
+     public static function getResourcesDir()
+     {
+-        return dirname(__DIR__) . '/res';
++        return __DIR__ . '/res';
+     }
+ 
+     private function loadLicenses()
