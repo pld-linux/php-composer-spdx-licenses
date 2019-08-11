@@ -1,12 +1,12 @@
 %define		pkgname	spdx-licenses
 Summary:	SPDX licenses list and validation library
 Name:		php-composer-%{pkgname}
-Version:	1.5.1
+Version:	1.5.2
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 Source0:	https://github.com/composer/spdx-licenses/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	c0c51556eb06a23ba1150c4e42b2175b
+# Source0-md5:	6e5f658fd7e00ee19943eda1fce5a4cc
 Patch0:		res.patch
 URL:		https://github.com/composer/spdx-licenses
 Requires:	php(core) >= 5.3.2
